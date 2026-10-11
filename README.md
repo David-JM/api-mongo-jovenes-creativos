@@ -24,15 +24,13 @@ npm install
 
 3. **Configurar variables de entorno**
 
-El archivo `.env` ya viene configurado con los datos de MongoDB Atlas de ejemplo:
+Agregar un archivo `.env` con la configuracion de conexion a MongoDB Atlas
 
 ```env
-MONGODB_URI=mongodb+srv://davidjulm_db_user:A8KUXjSrPoUuXrdy@jovenes-creativos-mongo.obsgzto.mongodb.net/example-users
+MONGODB_URI=mongodb+srv://{nombre-usuario}:{contraseña}@{nombre-cluster}.mongodb.net/{base-de-datos}
 PORT=3000
 NODE_ENV=development
 ```
-
-**⚠️ Nota:** Este proyecto utiliza una base de datos de ejemplo con credenciales públicas. Es solo para propósitos educativos. En producción, **nunca** hardcodees credenciales.
 
 ## Uso
 
