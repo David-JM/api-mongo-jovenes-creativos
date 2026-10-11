@@ -175,32 +175,6 @@ Respuesta:
   "mongodbConnected": true
 }
 ```
-
-## Conexión a MongoDB
-
-Este proyecto está configurado para conectarse a **MongoDB Atlas** (nube).
-
-### Credenciales de ejemplo (solo para educación)
-
-```
-Usuario: davidjulm_db_user
-Contraseña: A8KUXjSrPoUuXrdy
-Cluster: jovenes-creativos-mongo.obsgzto.mongodb.net
-Base de datos: example-users
-```
-
-La conexión se realiza automáticamente al iniciar el servidor. La URI está en `.env`:
-
-```env
-MONGODB_URI=mongodb+srv://davidjulm_db_user:A8KUXjSrPoUuXrdy@jovenes-creativos-mongo.obsgzto.mongodb.net/example-users
-```
-
-**⚠️ Advertencia de seguridad:** En un proyecto real en producción:
-- **NUNCA** commits credenciales al repositorio
-- Usa variables de entorno privadas
-- Cambia las contraseñas regularmente
-- Usa usuarios con permisos limitados
-
 ## Recursos
 
 - [Express.js](https://expressjs.com/)
